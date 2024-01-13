@@ -1,0 +1,123 @@
+.navbarBox {
+    border-bottom: 1px solid gray;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+}
+
+.navbarLogoBox {
+    /* border: 1px solid; */
+    height: 100%;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarLogoImg {
+    width: 220px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.navbarItemsBox {
+    display: flex;
+    gap: 20px;
+}
+
+.navbarIconsSpanBox {
+    display: flex;
+    align-items: center;
+}
+
+.navbarLoginButtonBox {
+    background: url("images/navbarLoginButtonRectangle.png");
+    width: 142px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbarLanguageFlagBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbarLanguageFlagBox span {
+    /* border: 1px solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.navbarHamburger {
+    cursor: pointer;
+}
+
+
+
+.hamburgerListBox {
+    border: 1px solid;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    transition: .1s all ease-in-out;
+    /* display: flex;
+    flex-direction: column; */
+
+    background: transparent linear-gradient(93deg, #283606 0%, #0F1500 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.mobileViewSideViewNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    height: 80px;
+}
+
+.hamburgerListItemsBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburgerListItems {
+    border: 1px solid;
+    width: 100%;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.sideBarBottomArea {
+    /* border: 1px solid red; */
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Inter', sans-serif;
+    height: calc(100% - 80px - 370px);
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 50px;
+}
+
+
+.sideBarLanguageFlagBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+}

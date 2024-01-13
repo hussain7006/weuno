@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* scroll bar css */
+::-webkit-scrollbar {
+    width: 7px !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f4f3f3;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px #C5A260;
+    border-radius: 10px;
+}
+
+/* scroll bar css */
+
+
+
+.mainBox {
+    height: 100vh;
+    width: 100%;
+    /* background-size: contain; */
+    overflow: auto;
+
+
+}
+
+.sectionOne {
+    height: 100vh;
+    background: url("images/background17252.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sectionTwo{
+    height: 100vh;
+}
