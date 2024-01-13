@@ -15,9 +15,20 @@ let hamburgerlist = [
 ]
 
 
+let subNavbarItems = [
+    { name: "Dine with us" },
+    { name: "Plan your visit" },
+    { name: "Events" },
+    { name: "Views groves map" },
+    { name: "Our story" },
+    { name: "Contact us" },
+]
+
+
 
 
 export {
     navbarIcons,
-    hamburgerlist
+    hamburgerlist,
+    subNavbarItems
 }

@@ -1,0 +1,146 @@
+.videoSectionMainBox {
+    /* border: 1px solid; */
+    background: transparent linear-gradient(97deg, #283606 0%, #0F1500 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    /* height: max-content; */
+    min-height: 100vh;
+}
+
+.videoSectionElementsBox {
+    /* border: 1px solid red; */
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.videoSectionElementsBoxMobileView {
+    padding: 0% 5%;
+
+}
+
+.videoSectionHeading {
+    /* border: 1px solid yellow; */
+    width: 65%;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 5%;
+}
+
+.videoSectionHeadingMobileView {
+    width: 100%;
+    font-size: 2em;
+    padding: 5% 0;
+}
+
+.videoSectionDescription {
+    /* border: 1px solid blue; */
+    text-align: center;
+    width: 70%;
+    font-weight: 300;
+}
+
+.videoSectionDescriptionMobileView {
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.videoSectionThumbnailBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.videoSectionThumbnailImg {
+    width: 100%;
+    object-fit: contain;
+}
+
+.videoSectionThumbnailPlayButtonBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoSectionThumbnailPlayButtonBoxMobileView {
+    width: 30px;
+    height: 30px;
+
+}
+
+.videoSectionThumbnailPlayButtonIcon {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.videoSectionThumbnailPlayButtonIconMobileView {
+    width: 10px;
+    margin-left: 5px;
+}
+
+.videoSectionCardBox {
+    position: relative;
+    background: #374515;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.videoSectionCardBoxMobileView {
+    width: 100%;
+}
+
+.videoSectionCardItem1 {
+    margin-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.videoSectionCardItem2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoSectionCardItem2Title {
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
+
+.videoSectionCardItem2Icon img {
+    width: 30px;
+    object-fit: contain;
+}
+
+.videoSectionCardItem2IconMobileView {
+    position: absolute;
+    right: 8%;
+    bottom: 8%;
+}
+
+.videoSectionCardItem3 {
+    font-weight: 200;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.videoSectionCardItem3MobileView {
+    line-height: 1.5em;
+}

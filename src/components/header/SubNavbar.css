@@ -1,0 +1,26 @@
+.subNavbarBox {
+    color: #fff;
+    border-bottom: 1px solid gray;
+    height: 40px;
+    /* transition: .2s all ease-in; */
+}
+
+.subNavbarItemsBox {
+    color: #fff;
+    padding: 0px 10%;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.subNavbarItemsBoxSpan {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    cursor: pointer;
+
+}

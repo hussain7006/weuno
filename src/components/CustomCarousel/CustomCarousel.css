@@ -1,0 +1,56 @@
+.control-dots{
+    right: 10%;
+    width: max-content !important;
+}
+
+.carousel .control-dots .dot{
+    margin: 0 2px;
+}
+.carouselBox {
+    /* width: 50%; */
+    height: calc(100vh - 80px - 40px);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.carouselItemBox {
+    height: calc(100vh - 80px - 40px - 60px);
+}
+
+.carousetItemSubElementsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 65%;
+    height: 80%;
+    text-align: left;
+    margin: auto;
+    font-family: Inter;
+    margin-top: 8%
+}
+
+.carousetItemSubElementsBoxMobileView{
+    width: 90%;
+}
+
+.carouselItem1 {
+    color: #fff;
+    width: 100%;
+    font-size: 12px;
+    letter-spacing: 3px
+}
+
+.carouselItem2 {
+    color: #fff;
+    font-size: 55px
+}
+
+.carouselItem2MobileView{
+    font-size: 42px;
+}
+
+.carouselItem3 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 200;
+}
